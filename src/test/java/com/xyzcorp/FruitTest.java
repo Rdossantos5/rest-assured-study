@@ -12,6 +12,7 @@ public class FruitTest {
     @Test
     public void testGetFruits(){
         given()
+
                 .relaxedHTTPSValidation()
                 .accept(ContentType.JSON)
                 .when()
