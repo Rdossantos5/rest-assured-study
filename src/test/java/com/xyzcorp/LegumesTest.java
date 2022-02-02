@@ -17,7 +17,7 @@ public class LegumesTest {
                 .get("https://staging.tiered-planet.net/mild-temper/legumes")
                 .then()
                 .assertThat()
-                .body("[1].description", equalTo("Summer squash"));
+                .body("[1].name", equalTo("Zucchini"));
 
     }
 
