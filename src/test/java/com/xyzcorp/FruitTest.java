@@ -31,7 +31,7 @@ public class FruitTest {
                 .put("name", "banana")
                 .put("description", "a delicious treat");
 
-        System.out.println(bananaObject);
+        //System.out.println(bananaObject);
 
         given()
                 .relaxedHTTPSValidation()
